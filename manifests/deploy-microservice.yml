@@ -57,7 +57,7 @@ spec:
     rules:
         -   http:
                 paths:
-                    -   path: /mild-temper(/|$)(.*)
+                    -   path: /colourful-rainbow(/|$)(.*)
                         backend:
                             serviceName: colourful-rainbow-microservice-service
                             servicePort: 30201
